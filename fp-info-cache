@@ -1,4 +1,4 @@
-24674208938093352
+24675969240093076
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64658,6 +64658,13 @@ QFP80P900X900X160-32N
 0
 32
 32
+KSZ_KiCad_Footprint_Library
+SAMTEC_USB-AM-S-X-X-TH
+
+
+0
+6
+6
 KSZ_KiCad_Footprint_Library
 SKQGAKE010
 SKQGAKE010
