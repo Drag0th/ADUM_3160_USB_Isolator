@@ -1,4 +1,4 @@
-24675969240093076
+24681251158898004
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64645,6 +64645,13 @@ LED_SK6812-E
 4
 4
 KSZ_KiCad_Footprint_Library
+MOLEX_73251-1350
+
+
+0
+5
+5
+KSZ_KiCad_Footprint_Library
 QFN40P700X700X90-57N
 
 
@@ -64669,6 +64676,13 @@ KSZ_KiCad_Footprint_Library
 SKQGAKE010
 SKQGAKE010
 Switch
+0
+4
+4
+KSZ_KiCad_Footprint_Library
+SMA_Monopole
+
+
 0
 4
 4
@@ -64735,6 +64749,13 @@ SW_PG151101S11
 0
 2
 2
+KSZ_KiCad_Footprint_Library
+TE_2081156-1
+
+
+0
+5
+5
 KSZ_KiCad_Footprint_Library
 WE-PD_7332
 

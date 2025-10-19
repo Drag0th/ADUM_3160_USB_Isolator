@@ -2005,7 +2005,7 @@
 				)
 			)
 		)
-		(symbol "USB_A_1"
+		(symbol "KSZ_KiCad_Symbol_Library:USB-AM-S-X-X-TH"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2013,42 +2013,34 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -5.08 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "USB_A"
 				(at -5.08 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" ""
-				(at 3.81 -1.27 0)
+			(property "Value" "USB-AM-S-X-X-TH"
+				(at -5.08 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
+					(justify left bottom)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 3.81 -1.27 0)
+			(property "Footprint" "KSZ_KiCad_Footprint_Library:SAMTEC_USB-AM-S-X-X-TH"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Description" "USB Type A connector"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2057,7 +2049,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "connector USB"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2066,18 +2058,129 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "USB*"
+			(property "MF" "Samtec"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "USB_A_1_0_1"
+			(property "MAXIMUM_PACKAGE_HEIGHT" "4.6 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/USB-AM-S-F-W-TH/Samtec+Inc./view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/USB-AM-S-F-W-TH/Samtec+Inc./view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "USB-AM-S-F-W-TH"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            USB-A (USB TYPE-A) USB 2.0 Plug Connector 4 Position Through Hole, Right Angle\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Samtec"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "USB-AM-S-X-X-TH_0_0"
 				(rectangle
-					(start -5.08 -7.62)
+					(start -5.08 -10.16)
 					(end 5.08 7.62)
 					(stroke
 						(width 0.254)
@@ -2087,241 +2190,110 @@
 						(type background)
 					)
 				)
-				(circle
-					(center -3.81 2.159)
-					(radius 0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 4.826)
-					(end -4.318 5.334)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.27 4.572)
-					(end -4.572 5.842)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -0.635 3.429)
-					(radius 0.381)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -0.127 -7.62)
-					(end 0.127 -6.858)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 2.159) (xy -2.54 2.159) (xy -1.27 3.429) (xy -0.635 3.429)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.159) (xy -1.905 2.159) (xy -1.27 0.889) (xy 0 0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 2.794) (xy 0.635 1.524) (xy 1.905 2.159) (xy 0.635 2.794)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.254 1.27)
-					(end -0.508 0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 5.08 -2.667)
-					(end 4.318 -2.413)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 -0.127)
-					(end 4.318 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 4.953)
-					(end 4.318 5.207)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "USB_A_1_1_1"
-				(polyline
-					(pts
-						(xy -1.905 2.159) (xy 0.635 2.159)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 7.62 5.08 180)
-					(length 2.54)
-					(name "VBUS"
+				(pin power_in line
+					(at -10.16 5.08 0)
+					(length 5.08)
+					(name "VCC"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "1"
+					(number "01"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin bidirectional line
-					(at 7.62 -2.54 180)
-					(length 2.54)
+					(at -10.16 2.54 0)
+					(length 5.08)
 					(name "D-"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "2"
+					(number "02"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin bidirectional line
-					(at 7.62 0 180)
-					(length 2.54)
+					(at -10.16 0 0)
+					(length 5.08)
 					(name "D+"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "3"
+					(number "03"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -10.16 90)
-					(length 2.54)
+				(pin power_in line
+					(at -10.16 -2.54 0)
+					(length 5.08)
 					(name "GND"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "4"
+					(number "04"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at -2.54 -10.16 90)
-					(length 2.54)
-					(name "Shield"
+					(at -10.16 -7.62 0)
+					(length 5.08)
+					(name "SHIELD"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "5"
+					(number "S1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -7.62 0)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -2642,7 +2614,7 @@
 		(uuid "1ee4a4c8-232f-44e9-965a-cc32cd3f471c")
 	)
 	(junction
-		(at 29.21 50.8)
+		(at 35.56 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "27270836-8294-43b4-a880-592f68034bb8")
@@ -2690,7 +2662,7 @@
 		(uuid "77240e19-2bb4-4f80-be3a-d15327d1a9c9")
 	)
 	(junction
-		(at 44.45 33.02)
+		(at 44.45 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8310d103-68d1-4e0d-a45b-6da477076460")
@@ -2726,6 +2698,12 @@
 		(uuid "d20a0912-5ccd-4b6d-b90c-96652fa332a0")
 	)
 	(junction
+		(at 38.1 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db381ffa-ec42-4f03-a4eb-72fe41d0556c")
+	)
+	(junction
 		(at 135.89 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2736,16 +2714,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd97a8ce-169b-4335-a94d-ae9756c05784")
-	)
-	(wire
-		(pts
-			(xy 39.37 33.02) (xy 44.45 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04be22a6-1ef7-48ba-8517-35c395bec82e")
 	)
 	(wire
 		(pts
@@ -2766,6 +2734,16 @@
 			(type default)
 		)
 		(uuid "09f10085-af7f-4330-a374-3bf70423afe3")
+	)
+	(wire
+		(pts
+			(xy 38.1 48.26) (xy 38.1 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bf1a6c6-f7f8-4c46-9579-d107107a768e")
 	)
 	(wire
 		(pts
@@ -2889,16 +2867,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 48.26) (xy 31.75 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20bbbe1f-5b5e-417a-a8b0-08287e8fd53c")
-	)
-	(wire
-		(pts
 			(xy 115.57 36.83) (xy 105.41 36.83)
 		)
 		(stroke
@@ -2939,6 +2907,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 40.64) (xy 58.42 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "269315a2-d886-4bf5-949f-7334b72c099a")
+	)
+	(wire
+		(pts
 			(xy 135.89 41.91) (xy 133.35 41.91)
 		)
 		(stroke
@@ -2949,7 +2927,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 33.02) (xy 44.45 43.18)
+			(xy 44.45 35.56) (xy 44.45 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3029,16 +3007,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 40.64) (xy 58.42 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4924ca86-aea5-42bd-be70-d025cc996ffb")
-	)
-	(wire
-		(pts
 			(xy 46.99 58.42) (xy 46.99 60.96)
 		)
 		(stroke
@@ -3086,6 +3054,16 @@
 			(type default)
 		)
 		(uuid "557dd289-d509-4ca8-a37d-e6fe41d4d0d0")
+	)
+	(wire
+		(pts
+			(xy 38.1 38.1) (xy 64.77 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58129bf4-8375-485d-8a9e-978c088f764c")
 	)
 	(wire
 		(pts
@@ -3179,17 +3157,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 38.1) (xy 64.77 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ceb9d58-c42d-4f3a-ac0f-7789e85a83ad")
-	)
-	(wire
-		(pts
-			(xy 29.21 52.07) (xy 29.21 50.8)
+			(xy 35.56 59.69) (xy 35.56 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3339,7 +3307,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 33.02) (xy 50.8 33.02)
+			(xy 44.45 35.56) (xy 50.8 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3439,7 +3407,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 50.8) (xy 31.75 50.8)
+			(xy 35.56 58.42) (xy 38.1 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3516,16 +3484,6 @@
 			(type default)
 		)
 		(uuid "bbe78cf6-2e78-421e-8b4d-ee1d016ef51c")
-	)
-	(wire
-		(pts
-			(xy 29.21 48.26) (xy 29.21 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd437c01-76cd-4381-8f87-959ebfb54de3")
 	)
 	(wire
 		(pts
@@ -3699,6 +3657,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 35.56) (xy 44.45 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e439a6e9-86a3-40a6-8765-60e496d9b9ce")
+	)
+	(wire
+		(pts
 			(xy 190.5 44.45) (xy 190.5 41.91)
 		)
 		(stroke
@@ -3746,6 +3714,16 @@
 			(type default)
 		)
 		(uuid "efb07b1d-2049-4fb7-848a-db8985097065")
+	)
+	(wire
+		(pts
+			(xy 38.1 43.18) (xy 38.1 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efb504d5-776f-4b11-8ea0-06c40b65a834")
 	)
 	(wire
 		(pts
@@ -3951,6 +3929,16 @@
 		)
 		(uuid "0b64b977-f61d-460d-a62c-12b6932e9bc1")
 	)
+	(label "USB2_2N"
+		(at 238.76 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0dd3ab52-0f01-4afb-b58a-fddda991b707")
+	)
 	(label "VDD2"
 		(at 247.65 76.2 180)
 		(effects
@@ -3962,7 +3950,7 @@
 		(uuid "1879e813-7545-4d6b-80f2-1621a0ba03d2")
 	)
 	(label "VBUS1"
-		(at 50.8 33.02 180)
+		(at 50.8 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3980,6 +3968,16 @@
 			(justify right bottom)
 		)
 		(uuid "2c260ed9-23de-40db-bf06-ff29580df81f")
+	)
+	(label "USB1_2N"
+		(at 203.2 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3fe2aa62-98c8-437d-b619-1e163a028eab")
 	)
 	(label "SPU"
 		(at 186.69 30.48 180)
@@ -4072,7 +4070,7 @@
 		(uuid "99ece188-a1e1-440f-8a50-ace59296e5b3")
 	)
 	(label "USB1_N"
-		(at 74.93 40.64 180)
+		(at 74.93 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4081,8 +4079,18 @@
 		)
 		(uuid "a16f1a2e-34cc-43fc-98a9-cfa76c98986a")
 	)
+	(label "USB1_2P"
+		(at 203.2 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b5888253-28d2-437c-a2d5-3cf1467d54f6")
+	)
 	(label "USB1_P"
-		(at 74.93 38.1 180)
+		(at 74.93 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4111,7 +4119,7 @@
 		)
 		(uuid "c54a35b8-c666-408e-ab03-1c2871943884")
 	)
-	(label "VDD1"
+	(label "VBUS1"
 		(at 203.2 30.48 0)
 		(effects
 			(font
@@ -4130,6 +4138,16 @@
 			(justify right bottom)
 		)
 		(uuid "cf30f0c0-90a8-46c0-a6be-18d003e346dc")
+	)
+	(label "USB2_2P"
+		(at 238.76 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e3eb82b6-c6b8-414e-a963-ebe5c443eb6f")
 	)
 	(label "SPD"
 		(at 186.69 44.45 180)
@@ -4160,84 +4178,6 @@
 			(justify right bottom)
 		)
 		(uuid "f8aba35d-7c54-4943-bf57-2ea7149513ca")
-	)
-	(symbol
-		(lib_name "USB_A_1")
-		(lib_id "Connector:USB_A")
-		(at 31.75 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0ddace1c-7ee3-4cb6-8dda-243529666f34")
-		(property "Reference" "J1"
-			(at 31.75 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_A"
-			(at 31.75 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "KSZ_KiCad_Footprint_Library:SAMTEC_USB-AM-S-X-X-TH"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB Type A connector"
-			(at 31.75 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "dcc726a9-6589-42f9-aa5e-9acb91e8fe64")
-		)
-		(pin "2"
-			(uuid "16f3b9c8-e4f8-41a6-81a8-cab001b9deab")
-		)
-		(pin "3"
-			(uuid "38c8b53e-1a6f-4155-9786-70395c9350e9")
-		)
-		(pin "1"
-			(uuid "658f4dc8-a534-4ee9-9b8f-9a5919a650d1")
-		)
-		(pin "4"
-			(uuid "be31ecf5-680e-4876-b875-4de3aa2753ad")
-		)
-		(instances
-			(project ""
-				(path "/446f1a3b-a19a-4111-9a43-1567a55b0281"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND1")
@@ -4300,6 +4240,72 @@
 			(project ""
 				(path "/446f1a3b-a19a-4111-9a43-1567a55b0281"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 190.5 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "218af8f4-95dd-4be1-ae50-be8769798e9f")
+		(property "Reference" "#PWR010"
+			(at 190.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 190.5 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 190.5 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68a9a967-e34d-4b13-a1a4-81f75ed0dbee")
+		)
+		(instances
+			(project "ADUM3160_USB_Isolator"
+				(path "/446f1a3b-a19a-4111-9a43-1567a55b0281"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -4586,7 +4592,7 @@
 		(dnp no)
 		(uuid "36b8dbdb-86c2-40a4-b990-93c42b059aa6")
 		(property "Reference" "C1"
-			(at 38.1 49.5299 0)
+			(at 41.91 48.514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4595,7 +4601,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 38.1 52.0699 0)
+			(at 41.656 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4713,7 +4719,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 29.21 52.07 0)
+		(at 35.56 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4722,7 +4728,7 @@
 		(fields_autoplaced yes)
 		(uuid "3803ced5-bd2e-42e0-a687-47386bcc53d4")
 		(property "Reference" "#PWR04"
-			(at 29.21 58.42 0)
+			(at 35.56 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4731,7 +4737,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 29.21 57.15 0)
+			(at 35.56 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4739,7 +4745,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 52.07 0)
+			(at 35.56 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4748,7 +4754,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 52.07 0)
+			(at 35.56 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4757,7 +4763,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 52.07 0)
+			(at 35.56 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5253,6 +5259,208 @@
 			(project "ADUM3160_USB_Isolator"
 				(path "/446f1a3b-a19a-4111-9a43-1567a55b0281"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KSZ_KiCad_Symbol_Library:USB-AM-S-X-X-TH")
+		(at 27.94 40.64 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74514390-ae24-4de9-963d-b489e4de7bdc")
+		(property "Reference" "J1"
+			(at 27.94 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB-AM-S-X-X-TH"
+			(at 27.94 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KSZ_KiCad_Footprint_Library:SAMTEC_USB-AM-S-X-X-TH"
+			(at 27.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Samtec"
+			(at 27.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.6 mm"
+			(at 27.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 27.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 27.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/USB-AM-S-F-W-TH/Samtec+Inc./view-part/?ref=eda"
+			(at 27.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 27.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "U"
+			(at 27.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/USB-AM-S-F-W-TH/Samtec+Inc./view-part/?ref=snap"
+			(at 27.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "USB-AM-S-F-W-TH"
+			(at 27.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            USB-A (USB TYPE-A) USB 2.0 Plug Connector 4 Position Through Hole, Right Angle\n                        \n"
+			(at 27.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 27.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samtec"
+			(at 27.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "01"
+			(uuid "22c56924-228a-4b09-be16-789508bf1937")
+		)
+		(pin "04"
+			(uuid "38607e62-355f-4803-a34b-879b3361d136")
+		)
+		(pin "03"
+			(uuid "9dcefe9e-29fe-4c18-96c4-703b9f06cb1c")
+		)
+		(pin "02"
+			(uuid "a66e51f9-07b5-4de6-99a8-0a33b6497bb5")
+		)
+		(pin "S1"
+			(uuid "aee6e361-b9cd-4243-b718-abd417664148")
+		)
+		(pin "S2"
+			(uuid "86562dda-eca4-4ed8-89f8-c61712df6245")
+		)
+		(instances
+			(project ""
+				(path "/446f1a3b-a19a-4111-9a43-1567a55b0281"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -7036,7 +7244,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 50.8 33.02 270)
+		(at 50.8 35.56 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7045,7 +7253,7 @@
 		(fields_autoplaced yes)
 		(uuid "cfa3e7c4-3fd8-41b3-b580-f75d3d48fbc7")
 		(property "Reference" "#FLG01"
-			(at 52.705 33.02 0)
+			(at 52.705 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7054,7 +7262,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 54.61 33.0199 90)
+			(at 54.61 35.5599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7063,7 +7271,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 33.02 0)
+			(at 50.8 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7072,7 +7280,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 33.02 0)
+			(at 50.8 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7081,7 +7289,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 50.8 33.02 0)
+			(at 50.8 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7510,72 +7718,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 190.5 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6f097bf-459f-495b-b304-629e76fd5449")
-		(property "Reference" "#PWR010"
-			(at 190.5 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 190.5 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e834b492-d2f0-42f5-ab72-84ff587a3ab8")
-		)
-		(instances
-			(project "ADUM3160_USB_Isolator"
-				(path "/446f1a3b-a19a-4111-9a43-1567a55b0281"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 175.26 30.48 0)
 		(unit 1)
@@ -7917,7 +8059,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 29.21 50.8 90)
+		(at 35.56 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7926,7 +8068,7 @@
 		(fields_autoplaced yes)
 		(uuid "f993cde1-de67-4c50-b34e-9cac853c3ba2")
 		(property "Reference" "#FLG02"
-			(at 27.305 50.8 0)
+			(at 33.655 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7935,7 +8077,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 25.4 50.7999 90)
+			(at 31.75 58.4199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7944,7 +8086,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 50.8 0)
+			(at 35.56 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7953,7 +8095,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 50.8 0)
+			(at 35.56 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7962,7 +8104,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 29.21 50.8 0)
+			(at 35.56 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
